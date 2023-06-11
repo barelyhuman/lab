@@ -1,0 +1,45 @@
+{
+  "name": "plugin-system",
+  "version": "0.0.1",
+  "repository": "barelyhuman/plugin-system",
+  "issues": "https://github.com/barelyhuman/experiments/issues",
+  "author": "reaper <ahoy@barelyhuman.dev>",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "source": "./src/index.js",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "fix": "npx prettier --write .",
+    "prepare": "husky install",
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@rollup/plugin-auto-install": "^3.0.4",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "depcheck": "^1.4.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "mocha": "^10.2.0",
+    "rollup": "^3.23.0",
+    "rollup-plugin-bundle-size": "^1.0.3",
+    "rollup-plugin-execute": "^1.1.1"
+  }
+}
