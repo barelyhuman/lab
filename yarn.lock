@@ -916,11 +916,6 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@rollup/plugin-auto-install@^3.0.4":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-auto-install/-/plugin-auto-install-3.0.4.tgz#ebe2672f91a3e16762f64ce113cd94a5baf4160f"
-  integrity sha512-V2eDj8sA/LnwVqFLrgpmnyAlXVgZIX7Mm7DzanQFrckOdEVjGM0hEfAykgsY9nBpCLWteaVtpawXJlTcOEEUZA==
-
 "@rollup/plugin-commonjs@^25.0.0":
   version "25.0.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-25.0.1.tgz#da984ea47f4450bb830fc1601bda130cfd603eb1"

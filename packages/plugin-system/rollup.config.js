@@ -1,5 +1,4 @@
 import execute from 'rollup-plugin-execute'
-import auto from '@rollup/plugin-auto-install'
 import common from '@rollup/plugin-commonjs'
 import resolve from '@rollup/plugin-node-resolve'
 import bundleSize from 'rollup-plugin-bundle-size'
@@ -20,7 +19,6 @@ const createConfig = ({ input, output, mode }) => {
       format: mode,
     },
     plugins: [
-      auto(),
       resolve(),
       common(),
       json(),

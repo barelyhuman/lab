@@ -21,12 +21,10 @@
     "dev": "rollup -c -w",
     "build": "rollup -c",
     "fix": "npx prettier --write .",
-    "prepare": "husky install",
     "test": "mocha"
   },
   "dependencies": {},
   "devDependencies": {
-    "@rollup/plugin-auto-install": "^3.0.4",
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
