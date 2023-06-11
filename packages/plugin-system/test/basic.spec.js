@@ -3,12 +3,11 @@ import chaiAsPromised from 'chai-as-promised'
 import { createHook } from '../src/index.js'
 chai.use(chaiAsPromised)
 
-describe('hook', function () {
+describe('basic hook', function () {
   it('should hook onto the listener', function () {
     const hook = createHook()
     let called = false
     hook.hook('example:key', () => {
-      console.log('called')
       called = true
     })
     hook.call('example:key')
