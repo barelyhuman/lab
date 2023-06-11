@@ -1,5 +1,5 @@
 {
-  "name": "plugin-system",
+  "name": "module-loader-system",
   "version": "0.0.1",
   "author": "reaper <ahoy@barelyhuman.dev>",
   "type": "module",
@@ -24,7 +24,9 @@
     "prepare": "husky install",
     "test": "mocha"
   },
-  "dependencies": {},
+  "dependencies": {
+    "tiny-glob": "^0.2.9"
+  },
   "devDependencies": {
     "@rollup/plugin-auto-install": "^3.0.4",
     "@rollup/plugin-commonjs": "^25.0.0",
