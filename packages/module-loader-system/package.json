@@ -1,8 +1,11 @@
 {
-  "name": "module-loader-system",
+  "name": "@bhincubator/module-loader-system",
   "version": "0.0.1",
   "author": "reaper <ahoy@barelyhuman.dev>",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "exports": {

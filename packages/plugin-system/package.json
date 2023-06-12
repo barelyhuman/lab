@@ -1,9 +1,12 @@
 {
-  "name": "plugin-system",
+  "name": "@bhincubator/plugin-system",
   "version": "0.0.1",
   "author": "reaper <ahoy@barelyhuman.dev>",
   "type": "module",
   "main": "dist/index.cjs",
+  "publishConfig": {
+    "access": "public"
+  },
   "module": "dist/index.js",
   "exports": {
     ".": {
